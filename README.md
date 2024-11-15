@@ -14,6 +14,11 @@ By using the object in this code, you can:
 
 # How to use
 
+Before using, enter API KEY in your_api_key.py
+```your_api_key.py
+my_api_key = "YOUR_API_KEY"
+```
+
 example code
 ```main.py
 import chatgpt

@@ -47,9 +47,18 @@ if you like to set memory(data type : array) limitation to save your token,
 you can follow the example below
 
 ```python
+import chatgpt
+
+# make a new chat object, memory limitation : 10
 chat = chatgpt.newChat(system_prompt1, length=10)
+
+# get user's message
+user_input = input("Message : ")
+
+# send message & print reply
+chat.send(user_input)
 ```
-default value of length is 50
+default value of length is 50!
 
 ---------------------------------------
 

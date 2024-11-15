@@ -1,7 +1,6 @@
 # ChatGPT-in-Python
 
 Thank you for visiting my first project!
-
 It’s a code that makes it easy to call OpenAI's REST API using Python.
 
 By using the object in this code, you can:  

@@ -14,12 +14,22 @@ By using the object in this code, you can:
 
 # How to use
 
+This repository consists of 3 files
+`your_api_key.py` : where to type your API KEY
+`chatgpt.py` : The location where the object is defined
+`main.py` : example usage (where you type your code)
+
+
 Before using, enter API KEY in `your_api_key.py`
 ```your_api_key.py
 my_api_key = "YOUR_API_KEY"
 ```
 
-example code
+You can get your API KEY HERE : 
+https://platform.openai.com/settings/organization/api-keys
+
+
+# Example code
 ```main.py
 import chatgpt
 

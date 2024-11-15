@@ -15,10 +15,11 @@ system_prompt = "your name is Tom, you are a helpful assistant."
 # Declare a new chat
 chat = chatgpt.newChat(system_prompt)
 
-# Receive user input
-user_input = input("Message: ")
-
-# Send a message to the chat and display the response
-chat.send(user_input)
+# repeat
+while True :
+  # Receive user input
+  user_input = input("Message: ")
+  # Send a message to the chat and display the response
+  chat.send(user_input)
 
 # ------------------------------------------------------------
